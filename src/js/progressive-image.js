@@ -31,7 +31,7 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
     timer = timer || setTimeout(function() {
       timer = null;
       inView();
-    }, 300);
+    }, 100);
 
   }
 
