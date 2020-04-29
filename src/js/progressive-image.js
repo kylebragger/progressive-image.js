@@ -48,7 +48,8 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
         cT = cRect.top;
         cH = cRect.height;
 
-        if (0 < cT + cH && wH > cT) {
+//         if (0 < cT + cH && wH > cT) {
+        if (true) {
           loadFullImage(pItem[p]);
           pItem[p].classList.remove('replace');
         }
